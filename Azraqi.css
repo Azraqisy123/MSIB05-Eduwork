@@ -1,3 +1,7 @@
+body {
+    background-color: #F8F0E5;
+}
+
 nav {
     text-align: center;
     padding: 10px;
@@ -8,13 +12,37 @@ nav {
 a {
     text-decoration: none;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+    background-color: #0F2C59;
+    border-radius: 5px;
+    padding: 5px;
+    color: aliceblue;
 }
 
 header {
-    background-color: lightpink;
+    background-color: #DAC0A3;
     text-align: center;
-    padding: 125px;
     font-size: larger;
+}
+
+.headerimg {
+    height: 400px;
+    width:2999px;
+    object-fit: cover;
+    opacity: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 hr {
@@ -22,14 +50,14 @@ hr {
 }
 
 footer {
-    background-color: lightpink;
+    background-color: #DAC0A3;
     text-align: center;
     font-size: 24px;
     padding: 2px;
 }
 
 .Profile {
-    max-width: 1000px;
+    max-width: 955px;
     margin: 2em auto;
     font-size: larger;
     text-align: justify;
@@ -37,17 +65,40 @@ footer {
 
 .Myname {
     line-height: 14px;
+    padding-bottom: 10px;
 }
 
-.description {
-    font-weight: normal;
-    line-height: 36px;
+.AboutMe {
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 34px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.ProfilePict {
-    background-color: antiquewhite;
-    width: 260px;
-    height: 260px;
-    text-align: center;
+.introduction {
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Description {
+    max-width: 500px;
+    vertical-align: top;
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+
+}
+
+.PictureProfile {
+    padding: 24px;
+    background-color: #0F2C59;
+}
+
+.Myname, .AboutMe, .Description, .introduction, hr {
+    padding-right: 16px;
 }
